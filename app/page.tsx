@@ -6,6 +6,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
 import { ThemeToggle } from '@/components/theme-toggle';
+  import { Variants } from "framer-motion";
+
 import {
   Github,
   Linkedin,
@@ -36,6 +38,18 @@ import { motion } from 'framer-motion'; // Import motion from framer-motion
 export default function Portfolio() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
+
+const cardVariants: Variants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.6,
+      ease: [0.42, 0, 0.58, 1], // ✅ This is a cubic bezier array
+    },
+  },
+};
 
   const navItems = [
     { id: 'home', label: 'Home' },
@@ -140,11 +154,6 @@ export default function Portfolio() {
     setIsMenuOpen(false);
   };
 
-  // Framer Motion variants for card animations
-  const cardVariants = {
-    hidden: { opacity: 0, y: 50 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } }
-  };
 
   // Framer Motion variants for badge animations (staggered)
   const badgeVariants = {
