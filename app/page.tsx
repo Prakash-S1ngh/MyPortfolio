@@ -476,7 +476,7 @@ const cardVariants: Variants = {
                     variants={{ visible: { transition: { staggerChildren: 0.1 } } }}
                   >
                     {skills.database.map((skill) => (
-                      <motion.div key={skill} variants={badgeVariants}>
+                      <motion.div key={skill} >
                         <Badge
                           variant="secondary"
                           className="bg-purple-100 text-purple-800 dark:bg-purple-900/50 dark:text-purple-300
@@ -512,7 +512,7 @@ const cardVariants: Variants = {
                     variants={{ visible: { transition: { staggerChildren: 0.1 } } }}
                   >
                     {skills.tools.map((skill) => (
-                      <motion.div key={skill} variants={badgeVariants}>
+                      <motion.div key={skill}>
                         <Badge
                           variant="secondary"
                           className="bg-orange-100 text-orange-800 dark:bg-orange-900/50 dark:text-orange-300
@@ -548,7 +548,7 @@ const cardVariants: Variants = {
                     variants={{ visible: { transition: { staggerChildren: 0.1 } } }}
                   >
                     {skills.programmingLanguages.map((lang) => (
-                      <motion.div key={lang} variants={badgeVariants}>
+                      <motion.div key={lang}>
                         <Badge
                           variant="secondary"
                           className="bg-yellow-100 text-yellow-800 dark:bg-yellow-900/50 dark:text-yellow-300
