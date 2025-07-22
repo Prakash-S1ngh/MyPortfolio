@@ -1,12 +1,11 @@
 'use client';
-
+import { Variants } from "framer-motion";
 import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
 import { ThemeToggle } from '@/components/theme-toggle';
-  import { Variants } from "framer-motion";
 
 import {
   Github,
@@ -405,7 +404,7 @@ const cardVariants: Variants = {
                     variants={{ visible: { transition: { staggerChildren: 0.1 } } }}
                   >
                     {skills.frontend.map((skill) => (
-                      <motion.div key={skill} variants={badgeVariants}>
+                      <motion.div key={skill}>
                         <Badge
                           variant="secondary"
                           className="bg-blue-100 text-blue-800 dark:bg-blue-900/50 dark:text-blue-300
