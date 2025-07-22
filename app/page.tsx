@@ -440,7 +440,7 @@ const cardVariants: Variants = {
                     variants={{ visible: { transition: { staggerChildren: 0.1 } } }}
                   >
                     {skills.backend.map((skill) => (
-                      <motion.div key={skill} variants={badgeVariants}>
+                      <motion.div key={skill} >
                         <Badge
                           variant="secondary"
                           className="bg-green-100 text-green-800 dark:bg-green-900/50 dark:text-green-300
