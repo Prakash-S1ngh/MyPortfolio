@@ -67,35 +67,44 @@ const cardVariants: Variants = {
     programmingLanguages: ['Java', 'C', 'SQL']
   };
 
-  const projects = [
-    {
-      title: 'FarmToTable | Fresh Produce Marketplace',
-      description: 'A full-stack e-commerce marketplace connecting farmers directly to consumers, enabling secure Browse, seamless ordering, and real-time tracking of fresh produce orders.',
-      technologies: ['React', 'Node.js', 'Express', 'MySQL', 'JWT', 'Axios', 'Multer', 'Cloudinary', 'Nodemailer'],
-      features: ['User & Admin Portals', 'Live Analytics Dashboard', 'Order & Inventory Management', 'Secure Authentication'],
-      github: 'https://github.com/Prakash-S1ngh/Farm-To-Table',
-      demo: 'https://farmtotable-demo.com',
-      image: 'https://images.pexels.com/photos/4557596/pexels-photo-4557596.jpeg?auto=compress&cs=tinysrgb&w=800'
-    },
-    {
-      title: 'CampusConnect | Student–Alumni Networking Platform',
-      description: 'A professional networking platform that bridges students and alumni for mentorship, referrals, and freelancing collaborations with integrated live chat and video calling.',
-      technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'WebSockets', 'WebRTC'],
-      features: ['Live Chat & Video Calls', 'Mentorship & Networking', 'Freelancing Hub', 'Collaborative Whiteboard'],
-      github: 'https://github.com/Prakash-S1ngh/CampusConnect',
-      demo: 'https://campusconnect-demo.com',
-      image: 'https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=800'
-    },
-    {
-      title: 'CodeCollab | Real-Time Collaborative Coding Platform',
-      description: 'A live collaborative coding platform supporting 2–4 participants with real-time video, screen sharing, AI-assisted suggestions, and multi-user interaction.',
-      technologies: ['Next.js', 'Socket.io', 'WebRTC', 'Node.js', 'MongoDB'],
-      features: ['Live Coding & Video Chat', 'AI Code Suggestions', 'Screen Sharing', 'Session Scheduling & Dashboard'],
-      github: 'https://github.com/Prakash-S1ngh/CodeCollab',
-      demo: 'https://codecollab-demo.com',
-      image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=800'
-    }
-  ];
+const projects = [
+  {
+    title: 'FarmToTable | Fresh Produce Marketplace',
+    description: 'A full-stack e-commerce marketplace connecting farmers directly to consumers, enabling secure Browse, seamless ordering, and real-time tracking of fresh produce orders.',
+    technologies: ['React', 'Node.js', 'Express', 'MySQL', 'JWT', 'Axios', 'Multer', 'Cloudinary', 'Nodemailer'],
+    features: ['User & Admin Portals', 'Live Analytics Dashboard', 'Order & Inventory Management', 'Secure Authentication'],
+    github: 'https://github.com/Prakash-S1ngh/Farm-To-Table',
+    demo: 'https://farmtotable-demo.com',
+    image: 'https://images.pexels.com/photos/4557596/pexels-photo-4557596.jpeg?auto=compress&cs=tinysrgb&w=800'
+  },
+  {
+    title: 'CampusConnect | Student–Alumni Networking Platform',
+    description: 'A professional networking platform that bridges students and alumni for mentorship, referrals, and freelancing collaborations with integrated live chat and video calling.',
+    technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'WebSockets', 'WebRTC'],
+    features: ['Live Chat & Video Calls', 'Mentorship & Networking', 'Freelancing Hub', 'Collaborative Whiteboard'],
+    github: 'https://github.com/Prakash-S1ngh/CampusConnect',
+    demo: 'https://campusconnect-demo.com',
+    image: 'https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=800'
+  },
+  {
+    title: 'CodeCollab | Real-Time Collaborative Coding Platform',
+    description: 'A live collaborative coding platform supporting 2–4 participants with real-time video, screen sharing, AI-assisted suggestions, and multi-user interaction.',
+    technologies: ['Next.js', 'Socket.io', 'WebRTC', 'Node.js', 'MongoDB'],
+    features: ['Live Coding & Video Chat', 'AI Code Suggestions', 'Screen Sharing', 'Session Scheduling & Dashboard'],
+    github: 'https://github.com/Prakash-S1ngh/CodeCollab',
+    demo: 'https://codecollab-demo.com',
+    image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=800'
+  },
+  {
+    title: 'HostelEase | Hostel Management Web App',
+    description: 'A full-stack hostel management system where students can register, request accommodation, and wait for admin approval. Admin manages room allocations, tracks student details, and oversees staff for hostel maintenance.',
+    technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT', 'Nodemailer', 'Tailwind CSS'],
+    features: ['User Registration & Authentication', 'Room Allocation System', 'Admin Dashboard', 'Staff Management & Maintenance Tracking'],
+    github: 'https://github.com/Prakash-S1ngh/HostelEase',
+    demo: 'https://hostelease-demo.com',
+    image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=800'
+  }
+];
 
   const experience = [
     {
