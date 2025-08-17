@@ -100,7 +100,7 @@ const projects = [
     description: 'A full-stack hostel management system where students can register, request accommodation, and wait for admin approval. Admin manages room allocations, tracks student details, and oversees staff for hostel maintenance.',
     technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT', 'Nodemailer', 'Tailwind CSS'],
     features: ['User Registration & Authentication', 'Room Allocation System', 'Admin Dashboard', 'Staff Management & Maintenance Tracking'],
-    github: 'https://github.com/Prakash-S1ngh/HostelEase',
+    github: 'https://github.com/Prakash-S1ngh/DormMu',
     demo: 'https://hostelease-demo.com',
     image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=800'
   }
