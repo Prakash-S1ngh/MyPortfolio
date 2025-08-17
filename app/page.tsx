@@ -96,7 +96,7 @@ const projects = [
     image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=800'
   },
   {
-    title: 'HostelEase | Hostel Management Web App',
+    title: 'DormMu | Hostel Management Web App',
     description: 'A full-stack hostel management system where students can register, request accommodation, and wait for admin approval. Admin manages room allocations, tracks student details, and oversees staff for hostel maintenance.',
     technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT', 'Nodemailer', 'Tailwind CSS'],
     features: ['User Registration & Authentication', 'Room Allocation System', 'Admin Dashboard', 'Staff Management & Maintenance Tracking'],
